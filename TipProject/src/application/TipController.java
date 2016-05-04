@@ -35,7 +35,7 @@ public class TipController {
 		figureTotal();
 	}
 
-	//called by FXMLLoader to initailze the controller
+	//called by FXMLLoader to initialize the controller
 	public void initialize()  {
 		currency.setRoundingMode(RoundingMode.HALF_UP);
 
