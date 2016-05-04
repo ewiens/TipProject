@@ -65,16 +65,7 @@ public class TipController {
 			amountTextField.selectAll();
 			amountTextField.requestFocus();
 			
-			Slider slider = new Slider();
-			slider.setMin(0);
-			slider.setMax(100);
-			slider.setValue(40);
-			slider.setShowTickLabels(true);
-			slider.setShowTickMarks(true);
-			slider.setMajorTickUnit(50);
-			slider.setMinorTickCount(5);
-			slider.setBlockIncrement(10);
-
+			
 		}
 
 	}
