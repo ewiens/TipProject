@@ -58,7 +58,7 @@ public class TipController {
 			BigDecimal tip = amount.multiply(tipPercentage);
 			BigDecimal total = amount.add(tip);
 
-			tipTextField.setText(currency.format(tip));
+//			tipTextField.setText(currency.format(tip));
 			totalTextField.setText(currency.format(total));
 		} catch (NumberFormatException ex) {
 			amountTextField.setText("Enter Amount, please");
